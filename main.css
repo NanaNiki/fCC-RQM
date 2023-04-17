@@ -1,0 +1,68 @@
+@media (max-width: 640px) {
+  #text {
+    font-size: medium;
+  }
+}
+.app {
+  animation-name: appearance;
+  animation-duration: 2s;
+  transition: all 0.6s ease-in-out;
+}
+
+#text {
+  text-align: center;
+}
+#new-quote {
+  justify-content: end;
+}
+
+#new-quote:hover {
+  color: white !important;
+}
+
+.fa-quote-right {
+  float: right;
+}
+
+.quote-text {
+  margin-top: 2%;
+}
+
+.author-text {
+  margin-top: 3%;
+  text-align: end;
+}
+
+.card {
+  background: whitesmoke;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+}
+
+@keyframes appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footer {
+  text-align: center;
+  color: antiquewhite;
+  font-size: small;
+}
+
+.fa-heart {
+  align-items: center;
+  margin-bottom: -5px;
+}
+#nana {
+  text-decoration: none;
+  color: antiquewhite;
+  font-style: italic;
+}
+#nana:hover {
+  color: rgb(13, 202, 240);
+}
